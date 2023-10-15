@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.para {
+    font-family: Raleway, sans-serif;
+    color: #DDDDDD !important;
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 28px;
+}
+
+.heading {
+    font-family: Marcellus, "sans-serif";
+    font-size: 90px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.description {
+    font-family: Overpass;
+    font-size: 15px;
+    color: #FFFFFF !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-head {
+    font-family: Marcellus, "sans-serif";
+    font-size: 17px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.button {
+    width: 170px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #FFF;
+    font-family: Marcellus, "sans-serif";
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: #33AAC0 !important;
+    transition: all 0.7s;
+    color: #FFF !important;
+    border: 0;
+
+}
+
+/* accordion */
+.accordion-button:focus {
+    border-color: white !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #FFF !important;
+    box-shadow: #FFF !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.accordion-item:first-of-type {
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+
+.accordion-item:last-of-type {
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.input {
+    /* background-color:white; */
+    border-style: none;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: none;
+}
+
+input:not([type="range"]):not([type="color"]) {
+    writing-mode: horizontal-tb !important;
+}
+
+.a {
+    text-decoration: none;
+    color: #FFF;
+}
+a:hover{
+    color: #20434a !important;
+}
+.testimonial {
+    background-color: rgba(0, 0, 0, 0.368) !important;
+    background-blend-mode: color-dodge;
+}
+
+
+
+/* asdasdasd */
+.gallery_wrap {
+    height: 300px;
+}
+
+.image_1 {
+    background-image: url('images/photozone-img020.jpg');
+}
+
+.image_2 {
+    background-image: url('images/photozone-img20.jpg');
+}
+
+.image_3 {
+    background-image: url('images/photozone-img23.jpg');
+}
+
+.image_4 {
+    background-image: url('https://demo.bosathemes.com/photozone/wp-content/uploads/sites/6/2021/09/photozone-img014.jpg');
+}
+
+.image_5 {
+    background-image: url('https://demo.bosathemes.com/photozone/wp-content/uploads/sites/6/2021/09/photozone-img015.jpg');
+}
+
+.image {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    transition: flex 0.8s ease;
+}
+
+.image:hover {
+    flex: 7;
+}
+
+.footer-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.footer-icon:hover{
+    scale: 1.2;
+    transition: all .4s;
+}
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(1n) {
+    /* background-color: rgb(206, 17, 17); */
+    background-image: url('images/photozone-img020.jpg');
+    
+
+}
+
+.swiper-slide:nth-child(2n) {
+    /* background-color: rgb(0, 140, 255); */
+    background-image: url('images/photozone-img20.jpg');
+
+}
+
+.swiper-slide:nth-child(3n) {
+    /* background-color: rgb(10, 184, 111); */
+    background-image: url('images/photozone-img23.jpg');
+
+}
+
+/* ==*call-to-action*== */
+
+.test {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.728), rgba(0, 0, 0, 0.719)), url("https://demo.bosathemes.com/photozone/wp-content/uploads/sites/6/2021/09/photozone-img24.jpg");
+    position: relative;
+}
+
+/* .test p {
+    font-size: 23px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    width: 100%;
+} */
+.test .call-top {
+    font-size: 23px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+}
+
+.test .call-card {
+    background-color: #0a1c1e88;
+    text-align: center;
+    display: inline;
+    width: 1000px;
+}
+
+.test .card-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+
+}
+
+.form-control:focus,
+.form-select:focus,
+.was-validated .form-control:valid:focus,
+.was-validated .form-control:invalid:focus {
+    box-shadow: none;
+}
+
+.form-control{
+    border-radius: 0 !important;
+     box-shadow: none !important;
+     border: none !important ;
+}
+.card{
+    --bs-card-inner-border-radius:"none" !important;
+    --bs-card-border-radius:"none" !important
+}
+
+
+/* responsive  */
+
+@media (max-width: 850px) {
+    
+}
